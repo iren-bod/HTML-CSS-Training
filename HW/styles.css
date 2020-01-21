@@ -6,7 +6,7 @@ html, body {
     font-size: 14px;
     font-family: Arial;
 }
-.border_blok {
+div {
     border: 2px solid red;
     width: 60%;
     margin: 10px auto;
@@ -14,27 +14,26 @@ html, body {
     text-align: center;
     background: yellow;
 }
-.Heading_twoo {
+div > h1 {
     text-align: right;
 }
-.p {
-    text-align: left;
-}
-.Heading {
+div > p {
     text-align: center;
-}
-.border_twoo {
     background: blue;
     color: white;
-    font-size: 16px;
+    font-size: 14.5px;
 }
-.Start_text {
-    text-align: left;
-    font-size: 20px;
+body > h1 {
+    text-align: center;
 }
-.Start_text p {
-    margin: 0;
-}
-.red {
+div > p > i > b {
     color: red;
+}
+div > p > span > span {
+    color: red;
+}
+div > p > span {
+    font-size: 19px;
+    display: block;
+    text-align: left;
 }
